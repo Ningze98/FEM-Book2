@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. 程序说明
 本程序用于完成三维杆单元（空间桁架单元）有限元计算，可求解：
 单元长度、方向余弦
@@ -22,3 +23,7 @@ truss3d_element_stiffness(x1, x2, E, A)
 输入节点坐标、弹性模量、截面积，返回长度L、方向余弦、刚度矩阵Ke。
 truss3d_element_stress(x1, x2, E, A, de)
 输入节点位移de = [u1,v1,w1,u2,v2,w2]，返回应变、应力、轴力。
+=======
+# FEM-Book
+Source codes and example files for FEM Book by Xiong Zhang
+>>>>>>> ed846d174d6202ded59518bce799ed3ce5cbac21
